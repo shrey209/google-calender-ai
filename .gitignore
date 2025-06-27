@@ -1,0 +1,58 @@
+# ===== Python Backend (py/) =====
+py/__pycache__/
+py/**/*.py[cod]
+py/vevn/
+py/env/
+py/.venv/
+py/.env
+py/.env.*
+
+py/token_store.json
+py/client_secret.json
+
+# Python-related caches and test output
+py/.pytest_cache/
+py/coverage.*
+py/.mypy_cache/
+py/.dmypy.json
+py/.pyre/
+py/.hypothesis/
+py/htmlcov/
+
+# IDE/editor files inside py/
+py/.vscode/
+py/.idea/
+py/*.log
+py/*.sqlite3
+
+
+
+# ===== React Frontend (project/) =====
+project/node_modules/
+project/npm-debug.log*
+project/yarn-debug.log*
+project/yarn-error.log*
+
+project/build/
+project/dist/
+project/.next/
+project/.turbo/
+project/bolt/
+project/out/
+project/tmp/
+project/coverage/
+
+project/.env
+project/.env.local
+project/.env.development
+project/.env.test
+project/.env.production
+
+project/.vscode/
+project/.idea/
+
+# ===== Global OS & IDE Files =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
